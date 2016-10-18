@@ -1,0 +1,38 @@
+{
+  "name": "angular-project-tum",
+  "version": "1.0.0",
+  "description": "project for tum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioel/angular-project-tum.git"
+  },
+  "author": "Fabio El Manchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabioel/angular-project-tum/issues"
+  },
+  "homepage": "https://github.com/fabioel/angular-project-tum#readme",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templates": "^0.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-iife": "^0.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script src="./node_modules/angular/angular.js"></script>
+        <script src="./node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+        <script src="./app/app.module.js"></script>
+        <script src="./app/app.routes.js"></script>
+    </head>
+
+    <body ng-app="tum.member-site">
+        <h1>
+            HOME PAGE
+        </h1>
+        <a ui-sref="hello" ui-sref-active="active">Hello</a>
+        <a ui-sref="about" ui-sref-active="active">About</a>
+        <ui-view></ui-view>
+    </body>
+</html>
