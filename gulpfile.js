@@ -9,7 +9,7 @@ var iife = require('gulp-iife');
 var templateCache = require('gulp-angular-templatecache');
 var p = require('path');
 
-var output = 'tum.member-site.js';
+var output = 'OUTPUT_NAME';
 
 var paths = {
     javascripts: [
@@ -17,7 +17,7 @@ var paths = {
         './dist/js/templates.js'
     ],
     styles: [
-        './app/sass/tum.member-site.scss'
+        './app/sass/app.scss'
     ],
     templates: [
         './app/templates/**/*.html'
@@ -58,7 +58,7 @@ gulp.task('templates', function() {
             quotes: true
         }))
         .pipe(templateCache({
-            module: 'tum.member-site',
+            module: 'OUTPUT_NAME',
             standalone: true
         }))
         //put all those to our javascript file

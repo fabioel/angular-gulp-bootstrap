@@ -1,3 +1,3 @@
-angular.module('tum.member-site', [
+angular.module('APP_NAME', [
     'ui.router'
 ]);

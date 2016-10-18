@@ -1,7 +1,7 @@
 {
-  "name": "angular-project-tum",
+  "name": "angular-gulp-bootstrap",
   "version": "1.0.0",
-  "description": "project for tum",
+  "description": "simple setup for angular + bootstrap + gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,9 +13,9 @@
   "author": "Fabio El Manchi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fabioel/angular-project-tum/issues"
+    "url": "https://github.com/fabioel/angular-gulp-bootstrap/issues"
   },
-  "homepage": "https://github.com/fabioel/angular-project-tum#readme",
+  "homepage": "https://github.com/fabioel/angular-gulp-bootstrap#readme",
   "devDependencies": {
     "angular": "^1.5.8",
     "angular-ui-router": "^0.3.1",

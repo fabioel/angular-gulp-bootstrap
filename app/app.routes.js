@@ -1,4 +1,4 @@
-angular.module('tum.member-site')
+angular.module('APP_NAME')
     .config(function($stateProvider) {
         var helloState = {
             name: 'hello',
